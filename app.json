@@ -1,0 +1,33 @@
+{
+  "name": "Discord.py Heroku",
+  "description": "A One-click deployment of a basic discord.py bot on Heroku",
+  "keywords": [
+    "bot",
+    "discord",
+    "discord.py",
+    "heroku"
+  ],
+  "website": "https://github.com/bxio/Discord-Heroku",
+  "repository": "https://github.com/bxio/Discord-Heroku",
+  "env": {
+    "DISCORD_TOKEN": {
+      "description": "Discord Bot Token",
+      "value": "PUT_YOUR_BOT_TOKEN_HERE"
+    },
+    "BOT_PREFIX": {
+      "description": "Discord Bot Prefix (defaults to ?)",
+      "value": "?"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/xrisk/heroku-opus.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
