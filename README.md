@@ -1,5 +1,5 @@
 # Discord Bot Docker
-A dead simple one-click [Discord](https://discordapp.com) bot. Based on [discord.py rewrite](https://github.com/Rapptz/discord.py/tree/rewrite). Matplotlib and git come preinstalled.
+A dead simple one-click [Discord](https://discordapp.com) bot. Based on the [discord.py](https://github.com/Rapptz/discord.py) library. Matplotlib and git come preinstalled.
 
 ## How to Bot
 
